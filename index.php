@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Sistema de folha de pagamento</title>
-
+        <script src="js/default.js"></script>
     </head>
 
     <body>
@@ -37,16 +37,13 @@
     function exibirMenu()
     {
     ?>
-        <script src="./js/index.js"></script>
-
         <h2>Menu</h2>
         <hr>
         <br>
-        <button class="listButtonEl"> Relação de Funcionários</button>
-        <button class="consultButtonEl">Consulta de Funcionário</button>
+        <button id="listbutton_el"> Relação de Funcionários</button>
+        <button id="consultbutton_el">Consulta de Funcionário</button>
         </div>
     <?php
     }
     ?>
-
     </html>

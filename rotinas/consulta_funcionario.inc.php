@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <title>Consulta de funcionáro</title>
+    <script src="js/default.js"></script>
 </head>
 <body>
     <h1>CONSULTA DE FUNCIONÁRIO</h1>
@@ -51,6 +52,13 @@
             </p>
             <?php
         
+        } else {
+            echo "Não foi possível achar um registro";
+            ?>
+            
+            <button id="menubtn_el">Voltar ao menu</button>
+
+            <?php
         }
         
         mysqli_free_result($result);
@@ -65,14 +73,11 @@
         <form action="index.php?op=consult_func" method="post">
             <p>
                 Informe o registro:
-                    <input type="text" name="id">
+                    <input type="text" name="id" required>
             </p>
             <button>Enviar</button>
         </form>
-        <p>
-            <a href="index.php">Voltar ao menu</a>
-        </p>
-
+        <button id="menubtn_el">Voltar ao menu</button>
         <?php
 
     }
