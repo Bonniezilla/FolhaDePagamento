@@ -40,8 +40,8 @@
         <br>
     </div>
         <ul>
-            <li><a href="index.php?op=lista_func">Relação de Funcionários</a></li>
-            <li><a href="index.php?op=consult_func">Consulta de Funcionário</a></li>
+            <li><button><a href="index.php?op=lista_func">Relação de Funcionários</a></button></li>
+            <li><button><a href="index.php?op=consult_func">Consulta de Funcionário</a></button></li>
         </ul>
         <?php
     }

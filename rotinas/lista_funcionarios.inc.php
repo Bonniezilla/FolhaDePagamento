@@ -44,7 +44,7 @@
         </table>
         <hr>
         <br>
-        <p><a href="index.php?op"></a></p>
+        <p><a href="index.php?op">Voltar ao menu</a></p>
         </div>
     </body>
     </html>
