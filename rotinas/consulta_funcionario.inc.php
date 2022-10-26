@@ -75,9 +75,9 @@
                 Informe o registro:
                     <input type="text" name="id" required>
             </p>
-            <button>Enviar</button>
+            <button class="buttons">Enviar</button>
         </form>
-        <button id="menubtn_el">Voltar ao menu</button>
+        <a class='buttons' href="index.php?op=menu">Voltar ao menu</a>
         <?php
 
     }

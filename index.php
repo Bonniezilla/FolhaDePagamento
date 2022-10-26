@@ -4,11 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Sistema de folha de pagamento</title>
-        <script src="js/default.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
-        <div align="center">
+        <div class="header">
             <h1>Sistema de folha de pagamentos</h1>
 
             <?php
@@ -31,19 +31,22 @@
             }
             ?>
 
+
+            <?php
+            function exibirMenu()
+            {
+            ?>
+                <h2>Menu</h2>
+        </div>
+        <div class="menu">
+                <a class="buttons" href="index.php?op=lista_func"> Relação de Funcionários</a>
+                <a class="buttons" href="index.php?op=consult_func">Consulta de Funcionário</a>
+        </div>
+        
+        <script src="./js/default.js"></script>
+        <?php
+                }
+                ?>
     </body>
 
-    <?php
-    function exibirMenu()
-    {
-    ?>
-        <h2>Menu</h2>
-        <hr>
-        <br>
-        <button id="listbutton_el"> Relação de Funcionários</button>
-        <button id="consultbutton_el">Consulta de Funcionário</button>
-        </div>
-    <?php
-    }
-    ?>
     </html>
