@@ -25,6 +25,9 @@
                 case "consult_func";
                     require_once("rotinas/consulta_funcionario.inc.php");
                     break;
+                case 'cadastro_func';
+                    require_once('rotinas/cadastro_funcionario.inc.php');
+                    break;
                 case "menu";
                 default;
                     exibirMenu();
@@ -41,6 +44,7 @@
         <div class="menu">
                 <a class="buttons" href="index.php?op=lista_func"> Relação de Funcionários</a>
                 <a class="buttons" href="index.php?op=consult_func">Consulta de Funcionário</a>
+                <a class="buttons" href="index.php?op=cadastro_func">Cadastro de Funcionário</a>
         </div>
         
         <script src="./js/default.js"></script>
