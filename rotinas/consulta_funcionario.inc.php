@@ -42,13 +42,13 @@
             <hr>
             <br>
             <p>
-                <a href="index.php?op=consult_func">Nova Consulta</a>
+                <a class="buttons" href="index.php?op=consult_func">Nova Consulta</a>
             </p>
             <p>
-                <a href="index.php?op=lista_func">Relação de funcionários</a>
+                <a class="buttons" href="index.php?op=lista_func">Relação de funcionários</a>
             </p>
             <p>
-                <a href="index.php">Voltar ao menu</a>
+                <a class="buttons" href="index.php">Voltar ao menu</a>
             </p>
             <?php
         
