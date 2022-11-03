@@ -39,7 +39,7 @@
 
             function exibirMenu() {
                 ?>
-                <h2>Menu</h2>
+                <h1>Menu</h1>
             </div>
             <main>
                 <div class="buttons">
